@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.btn { 
+    border: 1px solid black;
+    padding: 8px 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    color:grey; 
+    margin: 2px;
+}
+
+.btn:hover{
+    background: grey;
+    color: white; 
+}
+
+.primary-btn { border: 1px solid rgb(161, 16, 16);
+    padding: 8px 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    color:rgb(161, 16, 16); 
+    margin: 2px;
+}
+
+.primary-btn:hover { 
+     background:rgb(161, 16, 16);
+    color: white; 
+}
+
+.secondary-btn{border: 1px solid rgb(13, 13, 121);
+    padding: 8px 16px;
+    border-radius: 3px;
+    text-decoration: none;
+    color:  rgb(13, 13, 121);
+    margin: 2px;
+ }
+
+.secondary-btn:hover{
+    background: rgb(13, 13, 121);
+    color: white;
+}
